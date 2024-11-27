@@ -17,7 +17,7 @@ Reusable Prompt that you can use to solve well defined problems where you specif
 1. Install llm
 2. Install ollama
 
-## Basics
+## Basic Text
 
 List Models
 
@@ -58,6 +58,12 @@ or using qwen2.5
 List ollama models
 
 - `ollama list`
+
+## Basic Structured Prompt
+
+Structured prompt
+
+- `ollama run llama3.2 < prompts/prompt_lvl2.xml`
 
 ## Resources
 
