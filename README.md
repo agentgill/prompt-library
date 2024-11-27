@@ -4,6 +4,14 @@ Reusable & customizable set of prompts and resources for prompt engineering.
 
 "The prompt is the new fundamental unit of knowledge work"
 
+## Level 1 Prompt - Text
+
+Basic free-text input "tell me a joke".
+
+## Level 2 Prompt - Structure your prompt
+
+Reusable Prompt that you can use to solve well defined problems where you specify additional information upfront using static variables.
+
 ## Getting started
 
 1. Install llm
@@ -58,3 +66,4 @@ List ollama models
 - Ollama <https://github.com/ollama>
 - Ollama Docs <https://github.com/ollama/ollama/tree/main/docs>
 - Ollama Models <https://ollama.com/search>
+- Pymupdf <https://pymupdf.readthedocs.io/en/latest/index.html>
