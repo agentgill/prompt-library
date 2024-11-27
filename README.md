@@ -1,5 +1,9 @@
 # My Prompt Library
 
+Reusable & customizable set of prompts and resources for prompt engineering.
+
+"The prompt is the new fundamental unit of knowledge work"
+
 ## Getting started
 
 1. Install llm
