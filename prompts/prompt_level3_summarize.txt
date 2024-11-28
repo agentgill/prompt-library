@@ -1,0 +1,171 @@
+<purpose>
+ Summarize the medical content based on the instructions and example-output provided
+</purpose>
+
+<instructions>
+    <instruction>Output in markdown format</instruction>
+    <instruction>Output summary in the format of example-output</instruction>
+    <instruction>Output should include encounter type, date, short description</instruction>
+</instructions>
+
+<example-output>
+    # Summary
+
+    ## Patient information
+    - Patient Name
+    - Date of birth
+    - Gender
+    - Race
+    - Ethnicity
+    - Language
+
+    ## Encounter Name
+    - Encounter Type
+    - Date
+    - Short Description
+    
+</example-output>
+
+<content>
+ P*. Allergies and adverse reactions 7 . . .
+                                 Patient Name David Sacks Title Medical Summary Document
+  QF Encounters Patient ID 998991 Document ID f442bb91-fe05-40c9-b5c7-2cf184e047b2
+  Qe History of Medication use Date of birth October 7, 1974 Generated On October 15, 2024
+  EQ Problem list Gender Male Legal Authenticator
+    ry ae Race Sign On/Status Not signed
+   een S0Cial History
+   es Ethnicity Custodian CareEvolution, LLC.
+      Family History .
+                                Language English
+  We vitals Marital Status
+  Bp Labs Address Home
+ s History of Immunization
+  (2) History of Procedures Phone Home
+  BB Phys find
+  BB Review of systems
+  BB 1x of Pres illness
+  BB Eval note
+  Be Chief complaint+Reason for visit
+  BB Phys find General status
+  BB Treatment Plan
+  BB Advance Directives
+ @ Authors
+  S& caregivers
+ Patient Data
+  #€ Allergies and adverse reactions
+    Type Substance Status Allergy Severity Reported Date Reactions Comments Data Source
+     Propensity to acverse reactions to drug aspirin active Mild to moderate 05/01/2008 Wheal LA Central Hospital, Gill MD Ava
+      Propensity to acverse reactions to drug ALLERGENIC EXTRACT, PENICILLIN active Moderate to severe 05/01/2007 Nausea LA Central Hospital, Gill MD Ava
+     Propensity to acverse reactions to drug codeine active Moderate 05/01/2006 Wheezing LA Central Hospital, Gill MD Ava
+   Qy Encounters
+   Admit Date Discharge Type Problems Providers Location Identifier Data Source
+      10/15/2024 10/15/2024 Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate 9937012 LA Central
+      10:29:13 10:29:13 history and/or examination and low level of medical decision making. When using time for code selection, 20-29 minutes of total Hospital, Gill MD
+                          time is spent on the date of the encounter. Ava
+      08/15/2012 Office outpatient visit Costal chondritis: Khan, Samir : Allopathic & Get Well LA Central
+     10:00:00 Encounter Diagnosis Osteopathic Physicians; Internal Clinic Hospital, Gill MD
+                                                                                                    Medicine Ava
+   Qs History of Medication use
+          Stop eae . . . cat Date of Visit Last
+    Date Date Description Order Text Dose Frequency Route Status Provider Instructions Disposition Reported On Data Source
+      01/03/2007 05/15/2012 albuterol 0.09 0.09 MG/ACTUAT inhalant solution, 2 puffs QID 1 Inhalation Route of completed Seven, label in spanish; Proventil 0.09 Administered 10/15/2024 10:29:13 LACentral
+                 MG/ACTUAT PRN wheezing ; Proventil 0.09 MG/ACT UAT mg/actuat Administration Henry MG/ACTUAT inhalant solution Hospital, Gill MD
+                      [Proventil] inhalant solution Ava
+     01/03/2007 albuterol 0.09 completed Prescribed 10/15/2024 10:29:13
+                   MG/ACTUAT
+                        [Proventil]
+   By Problem list
+    Date Problem Description Status Resolved Date Date of Visit Last Reported On Comments Data Source
+     01/03/2008 Pneumonia Pneumonia: Status - Resolved completed 10/15/2024 10:29:13 LA Central Hospital, Gill MD Ava
+     01/03/2007 Asthma Asthma : Status - Active completed 10/15/2024 10:29:13 LA Central Hospital, Gill MD Ava
+   =< Social History
+    Date Social History Item Description Value Stop Date Comments Data Source
+     09/10/2012 72166-2 Tobacco smoking status NHIS Ex-smoker Community Health and Hospitals, Seven Henry
+     05/01/2005 74013-4 Alcoholic drinks per day ie) Community Health and Hospitals, Seven Henry
+      05/01/2005 10159-2 History of industrial exposure 5 years of working with asbestos Community Health and Hospitals, Seven Henry
+   Gpi) Family History
+     father DataSource: LA Central Hospital, Gill MD Ava
+
+```
+
+-----
+
+```
+      Systolic blood pressure 04/07/2000 145 mm[Hg] Community Health and Hospitals, Seven Henry
+      Patient Body Weight - Measured 11/14/1999 86 kg Community Health and Hospitals, Seven Henry
+      Body height 11/14/1999 177.cm Community Health and Hospitals, Seven Henry
+      Systolic blood pressure 11/14/1999 132 mm[Hg] Community Health and Hospitals, Seven Henry
+   Be Labs
+    Complete blood count without differential 03/23/2000 14:30:00 Status: completed Comments: DataSource: LA Central Hospital, Gill MD Ava
+    Test Date Value Acuity Normal Range Performed At Comments
+      PLT 03/23/2000 14:30:00 123 10+3/ul L 150 10+3/ul - 350 10+3/ul
+    WBC 03/23/2000 14:30:00 6.7 10+3/ul N 4.3 10+3/ul - 10.8 10+3/ul
+     HGB 03/23/2000 14:30:00 13.2 g/dL N 12.0-15.5 g/dl
+  ge History of Immunization
+     Vaccine Date Site Adverse Reactions Status Instructions Date of Visit Last Reported On Data Source
+      influenza virus vaccine, unspecified formulation 11/01/1999 completed 10/15/2024 10:29:13 LA Central Hospital, Gill MD Ava
+     meningococcal C conjugate vaccine 12/15/1998 completed 10/15/2024 10:29:13 LA Central Hospital, Gill MD Ava
+      influenza virus vaccine, unspecified formulation 12/15/1998 completed 10/15/2024 10:29:13 LA Central Hospital, Gill MD Ava
+     pneumococcal polysaccharide vaccine, 23 valent 12/15/1998 completed 10/15/2024 10:29:13 LA Central Hospital, Gill MD Ava
+  @ History of Procedures
+    Date Procedure Description Type Performer Date of Visit Last Reported On Data Source
+      05/12/2012 Colonoscopy Colonic polypectomy 10/15/2024 10:29:13 LA Central Hospital, Gill MD Ava
+      02/03/2011 Colonic polypectomy Colonic polypectomy 10/15/2024 10:29:13 LA Central Hospital, Gill MD Ava
+                    Colonic polypectomy Colonic polypectomy LA Central Hospital, Gill MD Ava
+   Bp Phys find
+   PHYSICAL EXAMINATION, Date: 10/15/2024 10:29:13, Data Source: LA Central Hospital, Gill MD Ava
+       e PHYSICAL EXAMINATIONHEENT: All normal to examination.Heart: RRR, no murmur. THORAX &amp; LUNGS: Clear without rhonchi or wheeze. ABDOMEN: No distension, tenderness, or guarding, obese, pos
+       bowel sounds.BACK: Normal to inspection and palpation, without tenderness; no presacral edema.EXTREMITIES: Doughy edema bilaterally, chronic stasis changes, no asymmetrical swelling.
+   Be Review of systems
+   REVIEW OF SYSTEMS, Date: 10/15/2024 10:29:13, Data Source: LA Central Hospital, Gill MD Ava
+       e REVIEW OF SYSTEMS
+       Patient denies recent history of fever or malaise. Positive for weakness and shortness of breath. One episode of melena. No recent headaches. Positive for osteoarthritis in hips, knees and hands.
+   Bp Hx of Pres illness
+   HISTORY OF PRESENT ILLNESS, Date: 10/15/2024 10:29:13, Data Source: LA Central Hospital, Gill MD Ava
+       e HISTORY OF PRESENT ILLNESS
+       This patient was only recently discharged for a recurrent GI bleed as described below.
+      He presented to the ER today c/o a dark stool yesterday but a normal brown stool today. On exam he was hypotensive in the 80?s resolved after .... .... ....
+       Lab at discharge: Glucose 112, BUN 16, creatinine 1.1, electrolytes normal. H. pylori antibody pending. Admission hematocrit 16%, discharge hematocrit 29%. WBC 7300, platelet count 256,000. Urinalysis
+       normal. Urine culture: No growth. INR 1.1, PTT 40.
+      He was transfused with 6 units of packed red blood cells with .... .... ....
+       Gl evaluation 12 September: Colonoscopy showed single red clotin.... .... ....
+   Bp Eval note
+   ASSESSMENT, Date: 10/15/2024 10:29:13, Data Source: LA Central Hospital, Gill MD Ava
+       e ASSESSMENTRecurrent GI bleed of unknown etiology; hypotension perhaps secondary to this but as likely secondary to polypharmacy.Acute on chronic anemia secondary to #1.Azotemia, acute renal failure
+       with volume loss secondary to #1.Hyperkalemia secondary to #3 and on ACE and K+ supplement.Other chronic diagnoses as noted above, currently stable.
+  Be Chief complaint+Reason for visit
+   REASON FOR VISIT/CHIEF COMPLAINT, Date: 10/15/2024 10:29:13, Data Source: LA Central Hospital, Gill MD Ava
+       + REASON FOR VISIT/CHIEF COMPLAINT
+       Dark stools.
+
+```
+
+-----
+
+```
+   BB Treatment Plan
+     Creation Date Due Date Plan Item Plan Description Author Performer Note Data Source
+      10/15/2024 14:29:13 05/12/2012 Colonoscopy Colonoscopy Community Health and Hospitals, Seven Henry
+      10/15/2024 14:29:13 05/12/2012 Colonoscopy Study observation Colonoscopy Study observation Community Health and Hospitals, Seven Henry
+      10/15/2024 14:29:13 Encounter for check up (procedure) Encounter for check up (procedure) Community Health and Hospitals, Seven Henry
+   Be Advance Directives
+    No advance directive information available.
+  @ Authors
+     Author: Authoring Device: Address:
+      CareEvolution, LLC. Orchestrate - CareEvolution, LLC. 625 N Main St
+                                                                                                                Ann Arbor, MI 48104
+              , LACentral Hospital
+              , Community Health and Hospitals
+  & Caregivers
+    Caregiver: Relationship: Specialty: Organization:
+     Samir Khan
+      NPI: 12345678910
+     Care
+
+
+
+-----
+
+
+</content>
+
