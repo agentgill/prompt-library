@@ -25,7 +25,7 @@
   - Some interesting facts
 </example-output>
 
-<topic>
+<content>
   Oxford is a cathedral city and non-metropolitan district in Oxfordshire, England, 
   of which it is the county town. Founded in the 8th century, it was granted city status in 1542. 
   The city is located at the confluence of the rivers Thames (locally known as the Isis) and Cherwell. 
@@ -34,4 +34,4 @@
   The city is home to the University of Oxford, the oldest university in the English-speaking world;[7] 
   it has buildings in every style of English architecture since late Anglo-Saxon. 
   Oxford's industries include motor manufacturing, education, publishing, science, and information technologies.
-</topic>
+</content>

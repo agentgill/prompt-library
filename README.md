@@ -12,9 +12,11 @@ Basic free-text input "tell me a joke".
 
 Reusable Prompt that you can use to solve well defined problems where you specify additional information upfront using static variables.
 
-## Level 3 Prompt - Examples
+## Level 3 Prompt - Give Examples
 
 Use & provide examples
+
+## Level 4 Prompt - Dynamic Variables
 
 ## Getting started
 
@@ -25,7 +27,7 @@ Use & provide examples
 - List llm models `llm models`
 - See default model `llm models default`
 
-## Basic Text
+## Level 1 - Basic Input
 
 Pinging
 
@@ -39,11 +41,21 @@ Ping using ollama & llama3.2
 
 - `ollama run llama3.2 < prompts/prompt_level1_count.txt`
 
-## Basic Structured Prompt
+## Level 2 -  Structured Prompt
 
 Structured prompt
 
 - `ollama run llama3.2 < prompts/prompt_level2_comedian.txt`
+
+## Level 3 - With Examples
+
+Guide the LLM (input and output file)
+
+- `llm -o bedrock_model_id us.anthropic.claude-3-5-sonnet-20241022-v2:0 < prompts/prompt_level3_summarize.txt > output.md`
+
+## Level 4 - Make scalable
+
+Use dymnamic variables and create prompts variables on the fly
 
 ## Anthropic Models
 
