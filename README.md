@@ -55,7 +55,14 @@ Guide the LLM (input and output file)
 
 ## Level 4 - Make scalable
 
-Use dymnamic variables and create prompts variables on the fly
+Use dymnamic variables and create scalable prompts on the fly
+
+- Specific purpose
+- Specific instructions
+- Specific examples
+- Dynamic Variables
+
+It's all just prompts.
 
 ## Anthropic Models
 
