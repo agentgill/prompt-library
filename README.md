@@ -73,3 +73,5 @@ Structured prompt
 - Ollama Docs <https://github.com/ollama/ollama/tree/main/docs>
 - Ollama Models <https://ollama.com/search>
 - Pymupdf <https://pymupdf.readthedocs.io/en/latest/index.html>
+- Pymupdf4llm <https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/index.html>
+- Typer <https://typer.tiangolo.com/>
