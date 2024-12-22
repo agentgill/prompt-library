@@ -7,7 +7,6 @@ import typer
 app = typer.Typer(name="extract-md")
 
 
-@app.command()
 def extract_md(pdf_path: str, pages: List[int] = None):
     md_text = pymupdf4llm.to_markdown(pdf_path, pages=pages)
 
@@ -16,4 +15,4 @@ def extract_md(pdf_path: str, pages: List[int] = None):
 
 
 if __name__ == "__main__":
-    app()
+    typer.run(extract_md)
