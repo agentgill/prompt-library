@@ -1,0 +1,27 @@
+# Prompt Engineering & Library
+
+Every time you use a rule(s), state the rule(s) you used.
+
+Say Happy New Year each time!
+
+## Project Context
+
+A collection of resources for prompt engineering...
+
+## Technologies
+
+Overview of the technologies we are using:
+
+- Use Python 3.12
+- Use UV over Pip for installing packages
+- Bedrock & Anthropic
+
+## Coding Standards
+
+Adopt / recommend the following coding standards when responding to code changes:
+
+- Use the Type Hinting for all variables and function parameters
+- Use the logger from AWS Lambda Powertools to log messages.
+- Important: Follow Single Responsibility Principle for all functions.
+- Important: Follow DRY Principle for all functions/classes where applicable.
+- Less Important: Follow SOLID Principles for all functions/classes where applicable.
