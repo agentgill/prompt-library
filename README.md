@@ -64,15 +64,13 @@ Use dymnamic variables and create scalable prompts on the fly
 
 It's all just prompts.
 
-## Anthropic Models
+## Models
 
-How to run the latest Claude models from Anthropic!
+How to install models
 
 - Install AWS Bedrock Anthropic `llm install llm-bedrock-anthropic`
-- Set default model to a Claude Model - `llm models default bedrock-sonnet`
-- Use -o bedrock_model_id `llm -o bedrock_model_id us.anthropic.claude-3-5-sonnet-20241022-v2:0 "Ping"`
-- And latest haiku `llm -o bedrock_model_id us.anthropic.claude-3-5-haiku-20241022-v1:0 "Ping"`
 - Install Anthropic Models for direct API access `llm install llm-claude-3`
+- Install Groq Models `llm install llm-groq`
 
 ## Resources
 
