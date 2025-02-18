@@ -51,7 +51,7 @@ Structured prompt
 
 Guide the LLM (input and output file)
 
-- `llm -o bedrock_model_id us.anthropic.claude-3-5-sonnet-20241022-v2:0 < prompts/prompt_level3_summarize.txt > output.md`
+- `llm < prompts/prompt_level3_summarize.txt > output.md`
 
 ## Level 4 - Make scalable
 
