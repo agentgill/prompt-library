@@ -4,8 +4,8 @@
 </purpose>
 <instructions>
     <instruction>
-        Count encounters by type and summarize
-        - Encounter
+        Count encounters by type and summarize.
+        Allowed encounter types: Encounter
     </instruction>
     <input>Input will be JSON data from previous analysis step (see CONTEXT MARKDOWN BELOW)</input>
     <input>See inputExampleOnly for expected format</input>
@@ -19,7 +19,7 @@
 
                 Results provided as structured JSON data:
                 
-                json
+                ```json
                 [
                     {
                         "date": "2024-10-15 10:29",
@@ -49,6 +49,7 @@
         <sourceHandling>
         <instruction>For the 'source' field, extract both the document title and position from the source XML elements</instruction>
         <instruction>Format source as "title:position" (e.g., "john-doe-medical-records.pdf:3")</instruction>
+        <instruction>When multiple encounters contribute to a count, return the earliest source; if ties exist, join unique sources with ";".</instruction>
         </sourceHandling>
     </validation>
 </validations>
@@ -58,7 +59,7 @@
         <description>Return an array of JSON objects with the following structure</description>
         <field name="type" type="string" required="true" description="Type of medical record (e.g., Encounter)" />
         <field name="count" type="number" required="true" description="Total count of this type" />
-        <field name="source" type="string" format="title:position" required="true" description="Primary document source" />
+        <field name="source" type="string" format="title:position" required="true" description="Primary document source (earliest or joined sources as above)" />
     </outputStructure>
     <outputExample>
         [
