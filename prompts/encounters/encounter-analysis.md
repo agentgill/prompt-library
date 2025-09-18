@@ -5,7 +5,7 @@
 <instructions>
     <instruction>
         Count encounters by type and summarize.
-        Allowed encounter types: Encounter
+        Allowed encounter types: Encounter, Vitals
     </instruction>
     <input>Input will be JSON data from previous analysis step (see CONTEXT MARKDOWN BELOW)</input>
     <input>See inputExampleOnly for expected format</input>
