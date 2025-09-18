@@ -7,8 +7,8 @@
         Count and summarize the specific summary types below   
         - Encounter
     </instruction>
-    <input>See inputExampleOnly for details</input>
     <input>Context is added automatically ======== CONTEXT MARKDOWN BELOW =========</input>
+    <input>See inputExampleOnly for details</input>
     <output>Return results as per the output</output>
 </instructions>
 <validations>
